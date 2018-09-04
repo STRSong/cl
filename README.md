@@ -48,9 +48,9 @@
 ## 4.前端设计
 前端可以采用css+html也可以使用集成前端框架来进行快速开发，例如layui等。<br/>
 使用layui设计的登录页。
- ![](https://i.imgur.com/ILNBeRt.png)
+![](https://i.imgur.com/ILNBeRt.png)
 主页
- ![](https://i.imgur.com/d301Zfr.png)
+![](https://i.imgur.com/d301Zfr.png)
 
 ## 5.数据库设计
 &nbsp;&nbsp;&nbsp;&nbsp;由于以前开发没有需要使用数据库的地方，所以没有将数据存储到数据库，在后续的开发中可能需要存储登录用户的信息以便后续功能可以直接使用本地的数据而不是每次都使用接口去解析。例如用户登录时如果数据库中没有记录则去接口查询，然后添加进数据库，下次再登录时直接从数据库查询，而不必走登录接口提高响应速度。
